@@ -1,0 +1,11 @@
+<div> Date (variable) : {{ dateService.date |date: "short"  }};</div>
+<div>Date ( méthode) : {{ dateService.getDate() |date: "short"  }};</div>
+
+<form [formGroup]="userForm">
+    <input formControl.name="name">
+    <input formControl.email="email">
+    <button (click)="showForm()">Submit</button>
+</form>
+
+
+

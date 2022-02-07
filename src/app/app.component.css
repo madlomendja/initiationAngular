@@ -1,0 +1,12 @@
+.active{
+    font-weight: bolder;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: aqua;
+    height: 30px;
+}
